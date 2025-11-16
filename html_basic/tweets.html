@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Portfolio</title>
-  </head>
-  <body>
-    <h1>My Tweets Page</h1>
+    <title>My Tweets</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-    <!-- Link back to homepage -->
-    <a href="index.html">Go back to Homepage</a>
+    <main>
+        <article>
+            <h1>My Tweets Page</h1>
 
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">Just an example tweet for ALX HTML task!</p>
-        <a href="https://twitter.com/Interior/status/463440424141459456"></a>
-    </blockquote>
+            <!-- embedded tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Just an ALX example tweet for embedding practice!</p>
+                <a href="https://twitter.com/Interior/status/463440424141459456"></a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Made by Emmanuel Dadzie - <a href="https://github.com/QKayManL" target="_blank">here</a>.</p>
+    </footer>
 </body>
-
 </html>
